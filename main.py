@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 if __name__ == '__main__':
     args = sys.argv
     if len(args) == 1:
-        exit(1)
+        print("Too few arguments, need at least url")
+        sys.exit(1)
 
     # TODO complete this program
