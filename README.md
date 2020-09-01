@@ -10,9 +10,15 @@ Complete the program that will take url as first argument and not specified numb
 ##### Run your program
 Run in main project directory for example:
 ```
-python3.8 main.py http://example.com example Domain
+python3.7 main.py http://example.com example Domain
 ```
 it should return something like:
 ```
 {"domain": 4, "example": 3}
+```
+
+#### Testing candidate solution
+Run in main project directory:
+```
+python3.7 test.py
 ```
