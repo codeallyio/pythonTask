@@ -1,3 +1,3 @@
 {
-  "init": "cd pythonTask && python3.7 -m pip install beautifulsoup4 --user"
+  "init": "cd pythonTask && python3.7 -m pip3 install beautifulsoup4 --user"
 }
